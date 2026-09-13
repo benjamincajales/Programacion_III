@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>TP 1: Introducción a CSS</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- 1. Introducción a CSS -->
+  <section>
+    <h2>1. Introducción a CSS</h2>
+    <p>CSS es el lenguaje encargado del diseño visual y la apariencia de las páginas web, permitiendo controlar colores, fuentes, espacios y la estructura de los elementos HTML.</p>
+  </section>
+
+  <!-- 2. Selectores en CSS -->
+  <section>
+    <h2>2. Selectores en CSS</h2>
+    <p id="parrafo-id">Párrafo con ID.</p>
+    <p class="parrafo-clase">Párrafo con clase.</p>
+    <p>Párrafo con tag.</p>
+  </section>
+
+  <!-- 3. Modificación de Texto -->
+  <section>
+    <h2>3. Modificación de Texto</h2>
+    <h3 class="titulo-estilizado">Título con Sombra y Mayúsculas</h3>
+    <p class="parrafo-espaciado">Texto con interlineado y espaciado entre letras aumentado.</p>
+    <p class="cita-estilizada">"Esta es una cita en cursiva con otra fuente."</p>
+  </section>
+
+  <!-- 4. Modelo de Caja -->
+  <section>
+    <h2>4. Modelo de Caja</h2>
+    <div class="tarjeta-perfil">
+      <div class="cuadrado-color"></div>
+      <h4>Tarjeta de Perfil</h4>
+      <p>Esta tarjeta muestra border, padding, margin, background-color, border-radius y box-shadow.</p>
+    </div>
+  </section>
+
+  <!-- 5. Display y Visibility -->
+  <section>
+    <h2>5. Display y Visibility</h2>
+    
+    <h3>display: block</h3>
+    <div class="tarjeta-perfil display-block">Tarjeta 1</div>
+    <div class="tarjeta-perfil display-block">Tarjeta 2</div>
+    <div class="tarjeta-perfil display-block">Tarjeta 3</div>
+
+    <h3>display: inline</h3>
+    <div class="tarjeta-perfil display-inline">Tarjeta 1</div>
+    <div class="tarjeta-perfil display-inline">Tarjeta 2</div>
+    <div class="tarjeta-perfil display-inline">Tarjeta 3</div>
+
+    <h3>display: inline-block</h3>
+    <div class="tarjeta-perfil display-inline-block">Tarjeta 1</div>
+    <div class="tarjeta-perfil display-inline-block">Tarjeta 2</div>
+    <div class="tarjeta-perfil display-inline-block">Tarjeta 3</div>
+
+    <h3>Botones</h3>
+    <button class="btn-none">Oculto con display: none</button>
+    <button class="btn-hidden">Oculto con visibility: hidden</button>
+    <button>Botón normal</button>
+
+    <p>display: none elimina el elemento del flujo y no ocupa espacio; visibility: hidden lo oculta pero mantiene el espacio reservado.</p>
+  </section>
+
+  <!-- 6. Variables CSS -->
+  <section>
+    <h2>6. Variables CSS</h2>
+    <div class="tarjeta-variables">
+      <h4>Tarjeta con Variables</h4>
+      <p>Estilizada con variables definidas en :root.</p>
+    </div>
+  </section>
+
+</body>
+</html>
